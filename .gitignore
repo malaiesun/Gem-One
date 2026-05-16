@@ -1,0 +1,10 @@
+assets/models/*.litertlm
+assets/models/*.bin
+.dart_tool/
+build/
+ios/
+linux/
+macos/
+windows/
+web/
+*.iml

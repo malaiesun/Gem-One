@@ -1,0 +1,49 @@
+name: gem_one
+
+description: "On-device AI for rural communities. Medical, education, maths, and general assistant."
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.11.5
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # AI
+  flutter_gemma: ^0.15.0
+
+  # UI
+  google_fonts: ^6.2.1
+  flutter_markdown: ^0.7.3
+  markdown: ^7.2.0
+  flutter_math_fork: ^0.7.2
+
+  # Features
+  image_picker: ^1.1.2
+  file_picker: ^8.1.2
+  shared_preferences: ^2.3.2
+  flutter_tts: ^4.2.0
+  math_expressions: ^2.6.0
+  pdf: ^3.11.0
+  printing: ^5.13.2
+
+dev_dependencies:
+  flutter_lints: ^5.0.0
+  flutter_launcher_icons: ^0.14.3
+
+flutter_launcher_icons:
+  android: true
+  ios: false
+  image_path: "assets/logo.png"
+  min_sdk_android: 21
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/models/gemma-4-E4B-it.litertlm
+    - lib/medical_data/medical_brain.json
