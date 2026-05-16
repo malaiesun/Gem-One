@@ -1,5 +1,7 @@
 # Gem One
 
+![Gem One Banner](screenshots/banner.png)
+
 **On-device AI assistant for Android. No internet. No account. No data leaving your phone.**
 
 Gem One runs Google's Gemma 4 E4B language model entirely on your device using the LiteRT runtime. It is built for communities with unreliable or no internet access - rural areas, low-connectivity regions, anyone who cannot depend on a stable data plan.
